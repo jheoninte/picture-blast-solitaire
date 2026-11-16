@@ -1,1 +1,16 @@
-{"mode":"boss-3x3","goalRevealPercent":100,"startingCenterCard":7,"cards":[{"value":6,"suit":"heart"},{"value":8,"suit":"club"},{"value":7,"suit":"spade"},{"value":5,"suit":"diamond"},{"value":6,"suit":"spade"},{"value":8,"suit":"diamond"},{"value":9,"suit":"heart"},{"value":10,"suit":"club"},{"value":9,"suit":"spade"}]}
+{
+  "mode": "boss-3x3",
+  "goalRevealPercent": 100,
+  "startingCenterCard": 7,
+  "cards": [
+    { "value": 6, "suit": "heart" },
+    { "value": 8, "suit": "club" },
+    { "value": 7, "suit": "spade" },
+    { "value": 5, "suit": "diamond" },
+    { "value": 6, "suit": "spade" },
+    { "value": 8, "suit": "diamond" },
+    { "value": 9, "suit": "heart" },
+    { "value": 10, "suit": "club" },
+    { "value": 9, "suit": "spade" }
+  ]
+}
