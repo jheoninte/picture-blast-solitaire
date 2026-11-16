@@ -9,3 +9,28 @@
 - `docs/LEVEL_SAMPLE.json`: 보스 스테이지 샘플 데이터
 - `docs/TECH_NOTES.md`: 이미지 업로드, 사운드/햅틱, 세이브 확장 포인트
 - `src-concept/scene_map.md`: 후속 엔진 씬/서비스 분리 메모
+## 빠른 시작
+
+```bash
+npm install
+npm run dev
+```
+
+- 개발 서버는 `web-prototype/index.html`을 바로 확인할 수 있게 루트에서 서빙합니다.
+- 정적 빌드는 아래 명령으로 생성합니다.
+
+```bash
+npm run build
+```
+
+- 저장소 구조 점검은 아래 명령으로 실행합니다.
+
+```bash
+npm run check
+```
+
+## 개발 인계 문서
+
+- `docs/DEV_QUICKSTART.md`: 다음 개발자/에이전트가 바로 이어서 작업하기 위한 실행 가이드
+- `BACKLOG.md`: 우선순위 기준 후속 구현 작업 목록
+
