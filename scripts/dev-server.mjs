@@ -4,7 +4,6 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const entryFile = path.join(rootDir, 'web-prototype', 'index.html');
 const args = process.argv.slice(2);
 const portIndex = args.indexOf('--port');
 const port = Number(process.env.PORT || (portIndex >= 0 ? args[portIndex + 1] : 4173));
@@ -14,16 +13,23 @@ const mime = {
   '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.md': 'text/markdown; charset=utf-8',
-  '.svg': 'image/svg+xml'
+  '.svg': 'image/svg+xml',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.webp': 'image/webp'
 };
 
 function resolveTarget(urlPath) {
-  if (urlPath === '/' || urlPath === '/index.html') return entryFile;
   const safePath = path.normalize(urlPath.replace(/^\/+/, ''));
   return path.join(rootDir, safePath);
 }
 
 createServer(async (req, res) => {
+  if (req.url === '/' || req.url === '/index.html') {
+    res.writeHead(302, { Location: '/web-prototype/index.html', 'Cache-Control': 'no-store' });
+    res.end();
+    return;
+  }
   const target = resolveTarget(req.url || '/');
   try {
     const info = await stat(target);
@@ -40,5 +46,5 @@ createServer(async (req, res) => {
   }
 }).listen(port, '127.0.0.1', () => {
   console.log(`Picture Blast Solitaire dev server: http://127.0.0.1:${port}`);
-  console.log('Serving web-prototype/index.html at the root path.');
+  console.log('Redirecting the root path to /web-prototype/index.html.');
 });

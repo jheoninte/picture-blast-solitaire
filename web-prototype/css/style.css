@@ -1,0 +1,50 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: linear-gradient(180deg, #111827, #020617); color: #f8fafc; }
+.layout { display: grid; grid-template-columns: 1fr; min-height: 100vh; }
+@media (min-width: 768px) { .layout { grid-template-columns: 340px minmax(0, 1fr); } }
+.sidebar { padding: 16px; background: rgba(15, 23, 42, .92); min-width: 0; }
+.board { display: flex; align-items: center; justify-content: center; padding: 16px; min-width: 0; }
+.artwork-container { position: relative; width: 100%; aspect-ratio: 400 / 220; margin: 8px 0 14px; border-radius: 14px; overflow: hidden; background: #1e293b; }
+.peek { display: block; width: 100%; height: 100%; object-fit: cover; opacity: 1; }
+.artwork-grid { position: absolute; inset: 0; display: grid; pointer-events: none; background: #0f172a; }
+.artwork-grid.main, .artwork-grid.boss { background: transparent; }
+.artwork-grid.main { grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 1fr); }
+.artwork-grid.boss { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); }
+.mask-cell { background: #0f172a; border: 1px solid rgba(255, 255, 255, .07); opacity: 1; transition: opacity .18s ease; }
+.mask-cell.revealed { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .mask-cell { transition: none !important; } }
+.board > div { width: 100%; max-width: 400px; min-width: 0; }
+.tri { display: grid; gap: clamp(4px, 2vw, 10px); width: 100%; justify-content: center; }
+.tri.main { grid-template-columns: repeat(5, minmax(0, 72px)); }
+.tri.boss { grid-template-columns: repeat(3, minmax(0, 80px)); }
+.card { width: 100%; aspect-ratio: 3/4; border-radius: 12px; border: 1px solid rgba(255, 255, 255, .18); min-width: 0; padding: 8px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; font-weight: 700; box-shadow: 0 8px 20px rgba(0, 0, 0, .24); font-size: clamp(12px, 3.5vw, 16px); }
+.red { background: #7f1d1d; }
+.black { background: #172554; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+button, input { border: none; border-radius: 10px; padding: 10px 12px; }
+button { background: #2563eb; color: white; cursor: pointer; }
+.ghost { background: #334155; }
+.hud { font-size: 13px; color: #cbd5e1; line-height: 1.5; }
+[hidden] { display: none !important; }
+.tutorial-panel { padding: 14px; margin-top: 12px; border: 1px solid #38bdf8; border-radius: 12px; background: #1e293b; }
+.tutorial-panel h3 { margin: 0 0 8px; font-size: 15px; color: #7dd3fc; }
+.tutorial-panel p { margin: 0; font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+.tutorial-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+.tutorial-notice { font-size: 12px; line-height: 1.5; color: #cbd5e1; }
+button:focus-visible { outline: 2px solid #7dd3fc; outline-offset: 3px; }
+
+.unlock-notice { margin-top: 8px; font-size: 12px; font-weight: 700; color: #34d399; min-height: 16px; }
+.collection-panel { margin-top: 12px; padding: 12px; border-radius: 12px; background: #1e293b; border: 1px solid rgba(255, 255, 255, .15); }
+.collection-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.collection-header h3 { margin: 0; font-size: 14px; color: #f8fafc; }
+.collection-error { font-size: 12px; color: #f87171; margin-bottom: 8px; }
+.collection-detail { margin-bottom: 12px; padding: 10px; border-radius: 10px; background: #0f172a; }
+.collection-detail-img { width: 100%; aspect-ratio: 400 / 220; object-fit: cover; border-radius: 8px; display: block; }
+.collection-detail-caption { margin-top: 6px; font-size: 13px; font-weight: 700; color: #f8fafc; }
+.collection-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.collection-item { display: flex; flex-direction: column; align-items: stretch; padding: 8px; border-radius: 10px; background: #0f172a; border: 1px solid rgba(255, 255, 255, .12); text-align: left; color: #f8fafc; }
+.collection-item.locked { opacity: 0.7; cursor: default; background: rgba(15, 23, 42, .6); }
+.collection-thumb { width: 100%; aspect-ratio: 400 / 220; object-fit: cover; border-radius: 6px; margin-bottom: 6px; }
+.collection-item-title { font-size: 12px; font-weight: 700; overflow-wrap: anywhere; }
+.collection-item-sub { font-size: 11px; color: #94a3b8; margin-top: 2px; }

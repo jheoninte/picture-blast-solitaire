@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "artSource": "existing",
+  "route": "user-reference-crop",
+  "usage": "development-reference-only",
+  "releaseApproved": false,
+  "halfWidth": 128,
+  "halfHeight": 176,
+  "artworks": [
+    {
+      "id": "vase_stripes",
+      "title": "검정 줄무늬 화병",
+      "top": "./assets/picture-match/reference-vases/vase_stripes-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_stripes-bottom.png",
+      "sourceCells": {
+        "top": [
+          0,
+          0
+        ],
+        "bottom": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "vase_spiral",
+      "title": "빨간 나선 화병",
+      "top": "./assets/picture-match/reference-vases/vase_spiral-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_spiral-bottom.png",
+      "sourceCells": {
+        "top": [
+          2,
+          0
+        ],
+        "bottom": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "vase_orange",
+      "title": "주황 줄무늬 화병",
+      "top": "./assets/picture-match/reference-vases/vase_orange-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_orange-bottom.png",
+      "sourceCells": {
+        "top": [
+          3,
+          0
+        ],
+        "bottom": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "vase_mint",
+      "title": "민트 격자 화병",
+      "top": "./assets/picture-match/reference-vases/vase_mint-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_mint-bottom.png",
+      "sourceCells": {
+        "top": [
+          5,
+          0
+        ],
+        "bottom": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "vase_speckles",
+      "title": "크림 점박이 화병",
+      "top": "./assets/picture-match/reference-vases/vase_speckles-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_speckles-bottom.png",
+      "sourceCells": {
+        "top": [
+          1,
+          2
+        ],
+        "bottom": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "vase_ivory",
+      "title": "아이보리 화병",
+      "top": "./assets/picture-match/reference-vases/vase_ivory-top.png",
+      "bottom": "./assets/picture-match/reference-vases/vase_ivory-bottom.png",
+      "sourceCells": {
+        "top": [
+          4,
+          2
+        ],
+        "bottom": [
+          5,
+          1
+        ]
+      }
+    }
+  ]
+}

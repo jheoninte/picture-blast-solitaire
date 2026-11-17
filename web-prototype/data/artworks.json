@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "artworks": [
+    {
+      "id": "art_level_1",
+      "levelId": "level_1",
+      "title": "첫 번째 조각: 여명의 기하학",
+      "assetKey": "prototype-default"
+    },
+    {
+      "id": "art_level_2",
+      "levelId": "level_2",
+      "title": "두 번째 조각: 보스의 관문",
+      "assetKey": "prototype-default"
+    },
+    {
+      "id": "art_level_3",
+      "levelId": "level_3",
+      "title": "세 번째 조각: 황혼의 하강",
+      "assetKey": "prototype-default"
+    },
+    {
+      "id": "art_level_4",
+      "levelId": "level_4",
+      "title": "네 번째 조각: 봉인된 회랑",
+      "assetKey": "prototype-default"
+    },
+    {
+      "id": "art_level_5",
+      "levelId": "level_5",
+      "title": "다섯 번째 조각: 별빛의 퍼즐",
+      "assetKey": "prototype-default"
+    },
+    {
+      "id": "art_level_6",
+      "levelId": "level_6",
+      "title": "여섯 번째 조각: 최후의 수호자",
+      "assetKey": "prototype-default"
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": "level_1",
+      "title": "Stage 1: Main Starter",
+      "mode": "main",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 8,
+          "suit": "heart"
+        },
+        {
+          "value": 9,
+          "suit": "heart"
+        },
+        {
+          "value": 10,
+          "suit": "heart"
+        },
+        {
+          "value": 11,
+          "suit": "heart"
+        },
+        {
+          "value": 12,
+          "suit": "heart"
+        },
+        {
+          "value": 13,
+          "suit": "heart"
+        },
+        {
+          "value": 1,
+          "suit": "heart"
+        },
+        {
+          "value": 2,
+          "suit": "heart"
+        },
+        {
+          "value": 3,
+          "suit": "heart"
+        },
+        {
+          "value": 4,
+          "suit": "heart"
+        },
+        {
+          "value": 5,
+          "suit": "club"
+        },
+        {
+          "value": 6,
+          "suit": "club"
+        },
+        {
+          "value": 7,
+          "suit": "club"
+        },
+        {
+          "value": 8,
+          "suit": "club"
+        },
+        {
+          "value": 9,
+          "suit": "club"
+        },
+        {
+          "value": 10,
+          "suit": "spade"
+        },
+        {
+          "value": 11,
+          "suit": "spade"
+        },
+        {
+          "value": 12,
+          "suit": "spade"
+        },
+        {
+          "value": 13,
+          "suit": "spade"
+        },
+        {
+          "value": 1,
+          "suit": "spade"
+        },
+        {
+          "value": 2,
+          "suit": "diamond"
+        },
+        {
+          "value": 3,
+          "suit": "diamond"
+        },
+        {
+          "value": 4,
+          "suit": "diamond"
+        },
+        {
+          "value": 5,
+          "suit": "diamond"
+        },
+        {
+          "value": 6,
+          "suit": "diamond"
+        }
+      ],
+      "deck": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        1,
+        2,
+        3
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_9"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_10"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_11"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_12"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_13"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_14"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_15"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_16"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_17"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_18"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_19"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_20"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_21"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_22"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_23"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_24"
+        }
+      ]
+    },
+    {
+      "id": "level_2",
+      "title": "Stage 2: Boss Blocked",
+      "mode": "boss",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 2,
+          "suit": "spade"
+        },
+        {
+          "value": 3,
+          "suit": "spade"
+        },
+        {
+          "value": 4,
+          "suit": "spade"
+        },
+        {
+          "value": 5,
+          "suit": "heart"
+        },
+        {
+          "value": 6,
+          "suit": "heart"
+        },
+        {
+          "value": 7,
+          "suit": "heart"
+        },
+        {
+          "value": 8,
+          "suit": "diamond"
+        },
+        {
+          "value": 9,
+          "suit": "diamond"
+        },
+        {
+          "value": 10,
+          "suit": "diamond"
+        }
+      ],
+      "deck": [
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "draw"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        }
+      ]
+    },
+    {
+      "id": "level_3",
+      "title": "Stage 3: Boss Descent",
+      "mode": "boss",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 6,
+          "suit": "club"
+        },
+        {
+          "value": 5,
+          "suit": "club"
+        },
+        {
+          "value": 4,
+          "suit": "club"
+        },
+        {
+          "value": 3,
+          "suit": "spade"
+        },
+        {
+          "value": 2,
+          "suit": "spade"
+        },
+        {
+          "value": 1,
+          "suit": "spade"
+        },
+        {
+          "value": 13,
+          "suit": "heart"
+        },
+        {
+          "value": 12,
+          "suit": "heart"
+        },
+        {
+          "value": 11,
+          "suit": "heart"
+        }
+      ],
+      "deck": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        }
+      ]
+    },
+    {
+      "id": "level_4",
+      "title": "Stage 4: Main Blocked",
+      "mode": "main",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 1,
+          "suit": "heart"
+        },
+        {
+          "value": 13,
+          "suit": "heart"
+        },
+        {
+          "value": 12,
+          "suit": "heart"
+        },
+        {
+          "value": 11,
+          "suit": "heart"
+        },
+        {
+          "value": 10,
+          "suit": "heart"
+        },
+        {
+          "value": 9,
+          "suit": "heart"
+        },
+        {
+          "value": 8,
+          "suit": "heart"
+        },
+        {
+          "value": 7,
+          "suit": "heart"
+        },
+        {
+          "value": 6,
+          "suit": "heart"
+        },
+        {
+          "value": 5,
+          "suit": "heart"
+        },
+        {
+          "value": 4,
+          "suit": "club"
+        },
+        {
+          "value": 3,
+          "suit": "club"
+        },
+        {
+          "value": 2,
+          "suit": "club"
+        },
+        {
+          "value": 1,
+          "suit": "club"
+        },
+        {
+          "value": 13,
+          "suit": "club"
+        },
+        {
+          "value": 12,
+          "suit": "spade"
+        },
+        {
+          "value": 11,
+          "suit": "spade"
+        },
+        {
+          "value": 10,
+          "suit": "spade"
+        },
+        {
+          "value": 9,
+          "suit": "spade"
+        },
+        {
+          "value": 8,
+          "suit": "spade"
+        },
+        {
+          "value": 7,
+          "suit": "diamond"
+        },
+        {
+          "value": 6,
+          "suit": "diamond"
+        },
+        {
+          "value": 5,
+          "suit": "diamond"
+        },
+        {
+          "value": 4,
+          "suit": "diamond"
+        },
+        {
+          "value": 3,
+          "suit": "diamond"
+        }
+      ],
+      "deck": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_12"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_11"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_10"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_9"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_19"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_18"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_17"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_16"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_15"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_14"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_13"
+        },
+        {
+          "type": "draw"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_24"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_23"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_22"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_21"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_20"
+        }
+      ]
+    },
+    {
+      "id": "level_5",
+      "title": "Stage 5: Main Puzzle",
+      "mode": "main",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 6,
+          "suit": "heart"
+        },
+        {
+          "value": 5,
+          "suit": "heart"
+        },
+        {
+          "value": 6,
+          "suit": "heart"
+        },
+        {
+          "value": 7,
+          "suit": "heart"
+        },
+        {
+          "value": 8,
+          "suit": "heart"
+        },
+        {
+          "value": 9,
+          "suit": "club"
+        },
+        {
+          "value": 10,
+          "suit": "club"
+        },
+        {
+          "value": 11,
+          "suit": "club"
+        },
+        {
+          "value": 12,
+          "suit": "club"
+        },
+        {
+          "value": 13,
+          "suit": "club"
+        },
+        {
+          "value": 1,
+          "suit": "spade"
+        },
+        {
+          "value": 2,
+          "suit": "spade"
+        },
+        {
+          "value": 3,
+          "suit": "spade"
+        },
+        {
+          "value": 4,
+          "suit": "spade"
+        },
+        {
+          "value": 5,
+          "suit": "spade"
+        },
+        {
+          "value": 6,
+          "suit": "diamond"
+        },
+        {
+          "value": 7,
+          "suit": "diamond"
+        },
+        {
+          "value": 8,
+          "suit": "diamond"
+        },
+        {
+          "value": 9,
+          "suit": "diamond"
+        },
+        {
+          "value": 10,
+          "suit": "diamond"
+        },
+        {
+          "value": 11,
+          "suit": "diamond"
+        },
+        {
+          "value": 12,
+          "suit": "diamond"
+        },
+        {
+          "value": 13,
+          "suit": "diamond"
+        },
+        {
+          "value": 1,
+          "suit": "diamond"
+        },
+        {
+          "value": 2,
+          "suit": "diamond"
+        }
+      ],
+      "deck": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        1,
+        2,
+        3
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_9"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_10"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_11"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_12"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_13"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_14"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_15"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_16"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_17"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_18"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_19"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_20"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_21"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_22"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_23"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_24"
+        }
+      ]
+    },
+    {
+      "id": "level_6",
+      "title": "Stage 6: Final Boss",
+      "mode": "boss",
+      "startingCenterCard": 7,
+      "cards": [
+        {
+          "value": 8,
+          "suit": "spade"
+        },
+        {
+          "value": 9,
+          "suit": "spade"
+        },
+        {
+          "value": 10,
+          "suit": "spade"
+        },
+        {
+          "value": 11,
+          "suit": "heart"
+        },
+        {
+          "value": 12,
+          "suit": "heart"
+        },
+        {
+          "value": 13,
+          "suit": "heart"
+        },
+        {
+          "value": 1,
+          "suit": "diamond"
+        },
+        {
+          "value": 2,
+          "suit": "diamond"
+        },
+        {
+          "value": 3,
+          "suit": "diamond"
+        }
+      ],
+      "deck": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "solution": [
+        {
+          "type": "remove",
+          "cardId": "board_0"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_1"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_2"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_3"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_4"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_5"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_6"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_7"
+        },
+        {
+          "type": "remove",
+          "cardId": "board_8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Picture Blast Solitaire</title>
+<link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+<h2 style="margin-top:0;">Picture Blast Solitaire</h2>
+
+<input disabled id="upload" type="file" accept="image/*" style="width:100%;margin-bottom:10px;" />
+<div class="artwork-container">
+<img id="preview" class="peek" alt="그림 공개: 0%" />
+<div id="artwork-grid" class="artwork-grid" aria-hidden="true"></div>
+</div>
+<div class="hud" id="hud"></div>
+<div id="statusPanel" aria-live="polite" style="margin: 12px 0; font-size: 14px; font-weight: bold; color: #fbbf24; min-height: 20px;"></div>
+<div id="imageStatus" aria-live="polite" style="font-size: 12px; color: #38bdf8; margin-bottom: 4px; min-height: 14px;"></div>
+<div id="saveStatus" aria-live="polite" style="font-size: 11px; color: #94a3b8; margin-bottom: 12px; min-height: 14px;"></div>
+
+<section id="tutorial-panel" class="tutorial-panel" aria-labelledby="tut-title" hidden>
+<div aria-live="polite">
+<h3 id="tut-title" tabindex="-1">규칙 안내</h3>
+<p id="tut-desc"></p>
+</div>
+<div class="tutorial-actions">
+<button id="tut-skip" class="ghost" type="button">건너뛰기</button>
+<button id="tut-next" type="button">다음 설명</button>
+</div>
+</section>
+<div id="tutorialStatus" class="tutorial-notice" aria-live="polite"></div>
+
+<div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;">
+<button id="dealBtn" type="button" disabled>다시하기</button>
+<button id="nextBtn" type="button" style="background:#10b981;" disabled>다음 스테이지</button>
+<button id="drawBtn" type="button" disabled style="background:#eab308; color:#000; font-weight:bold;">Draw (0)</button>
+<button id="soundBtn" class="ghost" type="button" disabled>Sound/Haptic</button>
+<button id="helpBtn" class="ghost" type="button" disabled>도움말</button>
+<button id="collectionBtn" class="ghost" type="button" aria-expanded="false" aria-controls="collectionPanel" disabled>컬렉션 · 불러오는 중</button>
+</div>
+
+<div id="unlockNotice" class="unlock-notice" aria-live="polite"></div>
+
+<section id="collectionPanel" class="collection-panel" aria-labelledby="collectionHeading" hidden>
+  <div class="collection-header">
+    <h3 id="collectionHeading" tabindex="-1">아트 컬렉션 (<span id="collectionCountText">수집 0 / 6</span>)</h3>
+    <button id="collectionCloseBtn" class="ghost" type="button" style="padding:4px 8px;font-size:12px;">닫기</button>
+  </div>
+  <div id="collectionError" class="collection-error" hidden>
+    컬렉션 목록을 불러오지 못했습니다.
+    <button id="collectionRetryBtn" class="ghost" type="button" style="padding:4px 8px;margin-left:6px;font-size:12px;">재시도</button>
+  </div>
+  <div id="collectionDetail" class="collection-detail" hidden>
+    <img id="collectionDetailImg" class="collection-detail-img" alt="" />
+    <div id="collectionDetailCaption" class="collection-detail-caption"></div>
+    <button id="collectionDetailCloseBtn" class="ghost" type="button" style="width:100%;margin-top:8px;padding:6px;font-size:12px;">큰 보기 닫기</button>
+  </div>
+  <div id="collectionGrid" class="collection-grid"></div>
+</section>
+
+<div id="errorPanel" role="alert" style="display:none; margin-top: 16px; color: #ef4444; font-size: 12px;">
+  데이터를 불러오지 못했습니다. <button id="retryBtn" type="button" class="ghost" style="padding: 4px 8px; margin-left: 8px;">재시도</button>
+</div>
+</aside>
+<main class="board">
+<div>
+<div id="tri" class="tri"></div>
+</div>
+</main>
+</div>
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>
